@@ -25,6 +25,10 @@
 
     "permissions": [
         "<all_urls>",
-        "browsingData"
+        "browsingData",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "webNavigation"
     ]
   }
