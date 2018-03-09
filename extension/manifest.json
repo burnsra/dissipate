@@ -2,24 +2,21 @@
     "manifest_version": 2,
     "name": "Dissipate",
     "version": "1.0.0",
-    "default_locale": "en",
     "description": "An extension which removes the browser cache on every page request.",
     "icons": {
         "16": "icon16.png",
+        "24": "icon24.png",
         "32": "icon32.png",
         "48": "icon48.png",
         "128": "icon128.png"
     },
 
     "browser_action": {
-        "default_icon": {
-            "16": "icon16_disabled.png",
-            "24": "icon24_disabled.png",
-            "32": "icon32_disabled.png"
-        }
+        "default_icon": "icon-off.png"
     },
 
     "permissions": [
-        "browser"
+        "<all_urls>",
+        "browsingData"
     ]
   }
