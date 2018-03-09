@@ -21,6 +21,8 @@
     var dissipateCache = (function() {
         if (!dissipateProcessing) {
             if (typeof(chrome.browsingData) !== 'undefined') {
+                // TODO: run some performance tests
+                // dissipateProcessing = true;
                 var callback = function () {
                     console.log('Cache dissipated');
                 };
