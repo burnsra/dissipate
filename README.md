@@ -9,7 +9,7 @@
 - Access your Chrome extensions [management](chrome://extensions/)
 - Enable developer mode
 - Click Load Unpacked and select the extension folder of this source
-- Enable the extenion with icon next to the address bar
+- Enable the extension with icon next to the address bar
 
 ## Contributions
 
