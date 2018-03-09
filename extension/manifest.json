@@ -12,7 +12,15 @@
     },
 
     "browser_action": {
-        "default_icon": "icon-off.png"
+        "default_icon": "icon-off.png",
+        "default_title": "Dissipate disabled"
+    },
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
     },
 
     "permissions": [
